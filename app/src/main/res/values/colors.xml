@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="tabtextcolor">#fff</color>
+    <color name="tabindicatorcolor">#2d2d2d</color>
+    <color name="colorAccent">#F44336</color>
+
+    <color name="colorPrimaryRecyclerView">#3F51B5</color>
+    <color name="colorPrimaryDarkRecyclerView">#303F9F</color>
+    <color name="colorAccentRecyclerView">#FF4081</color>
+    <color name="year">#999999</color>
+    <color name="titleRecyclerView">#222222</color>
+</resources>
