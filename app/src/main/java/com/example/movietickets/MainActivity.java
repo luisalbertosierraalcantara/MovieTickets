@@ -22,11 +22,6 @@ public class MainActivity extends AppCompatActivity {
     private AppBarLayout appBarLayout;
     private ViewPager viewPager;
 
-    // RecyclerView
-    private List<Movie> movieList = new ArrayList<>();
-    private RecyclerView recyclerView;
-    private MovieAdapter mAdapter;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,36 +45,6 @@ public class MainActivity extends AppCompatActivity {
 
         tabLayout.setupWithViewPager(viewPager);
 
-        //End TabLayout
-
-
-        //RecyclerView
-
-//        Toolbar toolbar = findViewById(R.id.tablayout_id);
-//        setSupportActionBar(toolbar);
-//
-//
-//        recyclerView = findViewById(R.id.recycler_view);
-//        mAdapter = new MovieAdapter(movieList);
-//        recyclerView.setHasFixedSize(true);
-//        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
-//        recyclerView.setLayoutManager(layoutManager);
-//        recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
-//        recyclerView.setItemAnimator(new DefaultItemAnimator());
-//       recyclerView.setAdapter(mAdapter);
-
-        // Populate Data in Api Movie
-
-        PopulateMovie();
-
-
-        //End Recycler
-
-    }
-
-    private void PopulateMovie(){
-        Movie movie = new Movie("Mad Max", "Action & Adventure", "2015","3.5","That's Story is about a man");
-        movieList.add(movie);
     }
 
 
